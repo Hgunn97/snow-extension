@@ -1,6 +1,6 @@
 {
-  "name": "Chrome Extension Boilerplate",
-  "description": "Chrome Extension boilerplate created with React Typescript.",
+  "name": "Snow Extension",
+  "description": "Chrome Extension for making it snow in your browser!",
   "manifest_version": 2,
   "version": "1.0.0",
   "icons": {
@@ -30,5 +30,6 @@
         "content.js"
       ]
     }
-  ]
+  ],
+  "permissions": ["storage"]
 }

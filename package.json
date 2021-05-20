@@ -6,7 +6,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
     "start": "webpack --watch",
-    "lint": "eslint '**/*.{ts,tsx,js,jsx}'",
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx ./",
+    "lint-fix": "eslint --ext .js,.jsx,.ts,.tsx ./ --fix",
     "commit": "git-cz"
   },
   "husky": {
@@ -33,10 +34,12 @@
     "@types/react": "^16.9.53",
     "@types/react-dom": "^16.9.8",
     "@typescript-eslint/eslint-plugin": "^4.24.0",
+    "@typescript-eslint/parser": "^4.24.0",
     "babel-loader": "^8.1.0",
     "commitizen": "^4.2.4",
     "copy-webpack-plugin": "^6.2.1",
     "css-loader": "^5.0.0",
+    "eslint": "^7.26.0",
     "eslint-plugin-react": "^7.23.2",
     "file-loader": "^6.1.1",
     "git-cz": "^4.7.6",
