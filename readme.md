@@ -1,4 +1,4 @@
-# Chrome Extension boilerplate created with React Typescript
+# Chrome Extension created with React Typescript to display snowflakes on a website
 
 ## Getting started
 
@@ -27,3 +27,6 @@ After the project has been built, a directory named `dist` has been created. You
 3. Enable _Developer mode_.
 4. Click _Load unpacked_.
 5. Select the `dist` directory.
+
+Project created following this guide:  
+[Creating a Chrome Extension with React and TypeScript](https://react.christmas/2020/12)
