@@ -1,4 +1,5 @@
 // This file is injected as a content script
+import "./content.css"
 
 const body = document.getElementsByTagName("body")
 
